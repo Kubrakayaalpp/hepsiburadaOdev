@@ -1,0 +1,329 @@
+[
+  {
+    "key": "Giriş",
+    "value": "myAccount",
+    "type": "id"
+  },
+  {
+    "key": "Giriş Yap",
+    "value": "login",
+    "type": "id"
+  },
+  {
+    "key": "Kullanıcı",
+    "value": "//*[@class=\"input text-input email2\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "Şifre",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "Üye Giriş",
+    "value": "//*[.='Giriş']",
+    "type": "xpath"
+  },
+  {
+    "key": "Sepetim",
+    "value": "shoppingCart",
+    "type": "id"
+  },
+  {
+    "key": "Sepet_Bos",
+    "value": "div.empty-cart.recommendation > h1",
+    "type": "css"
+  },
+  {
+    "key": "Hesabım",
+    "value": "a[class='cart-copy']",
+    "type": "css"
+  },
+  {
+    "key": "Hepsiburada",
+    "value": "//div[@class='header-global sfcontainer']//span[contains(text(),'hepsiburada.com')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Kategoriler",
+    "value": "body > div.wrapper > div:nth-child(4) > div.navigation > div.navigationWrapper > div > ul > li  > a > span",
+    "type": "css"
+
+  },
+  {
+    "key": "AltKategoriler",
+    "value": ".menu-item",
+    "type": "css"
+  },
+  {
+    "key": "Markalar",
+    "value": "//ol[@class='show-all-brands scrollable-filter-container scroll-lock']/li",
+    "type": "xpath"
+  },
+  {
+    "key": "EnAz",
+    "value": "//input[@placeholder='En az']",
+    "type": "xpath"
+  },
+  {
+    "key": "EnÇok",
+    "value": "//input[@placeholder='En çok']",
+    "type": "xpath"
+  },
+  {
+  "key": "FiyatOnayla",
+  "value": "//button[@class='button small']",
+  "type": "xpath"
+},
+  {
+    "key": "ÜrünSeç",
+    "value": "span[class='price product-price']",
+    "type": "css"
+  },
+  {
+    "key": "urunTutar2",
+    "value": "#offering-price > span:nth-child(1)",
+    "type": "css"
+  },
+  {
+    "key": "urunAdi",
+    "value": "product-name",
+    "type": "id"
+  },
+  {
+    "key": "SepettekiFiyat1",
+    "value": "span[data-bind=\"markupText:'currentPriceBeforePoint'\"]",
+    "type": "css"
+
+  },
+  {
+    "key": "SepettekiFiyat2",
+    "value": "span[data-bind=\"markupText:'currentPriceAfterPoint'\"]",
+    "type": "css"
+
+  },
+  {
+    "key": "İlkFiyat",
+    "value": "span[class=\"price product-price\"]",
+    "type": "css"
+
+  },
+  {
+    "key": "SepeteEkle",
+    "value": " span[class=\"addToCartButton\"]",
+    "type": "css"
+
+  },
+  {
+    "key": "UrunAdedi",
+    "value": "//input[contains(@name,'quantity')]",
+    "type": "xpath"
+
+  },
+  {
+    "key": "SepettekiUrunAdedi",
+    "type": "css",
+    "value": "span[class=\"cart-item-count active\"]"
+  },
+  {
+    "key": "sepete_git",
+    "type": "xpath",
+    "value": "//a[@id='shoppingCart']"
+  },
+  {
+    "key": "UrunArttır",
+    "type": "xpath",
+    "value": "//button[@class='increase']"
+  },
+  {
+    "key": "AdresEkleAd",
+    "type": "xpath",
+    "value": "//input[@id='first-name']"
+  },
+  {
+  "key": "AdresEkleSoyad",
+  "type": "xpath",
+  "value": "//input[@id='last-name']"
+},
+  {
+    "key": "AdresEkleÜlke",
+    "type": "xpath",
+    "value": "//span[@class='filter-option pull-left'][contains(text(),'Türkiye')]"
+  },
+  {
+    "key": "AdresEkleÜlke2",
+    "type": "xpath",
+    "value": " // a/span[contains(text(),'Türkiye')]"
+  },
+  {
+    "key": "AdresEkleÜlkeYaz",
+    "type": "xpath",
+    "value": "//div[@class='btn-group bootstrap-select required dropup open']//input[@class='input-block-level form-control input']"
+  },
+  {
+  "key": "AdresEkleŞehir",
+  "type": "xpath",
+  "value": "//span[@class='filter-option pull-left'][contains(text(),'stanbul')]"
+},
+  {
+    "key": "AdresEkleŞehirYaz",
+    "type": "xpath",
+    "value": "//div[@class='btn-group bootstrap-select required dropup open']//input[@class='input-block-level form-control input']"
+  },
+  {
+    "key": "AdresEkleŞehir2",
+    "type": "xpath",
+    "value": "//span[@class='text'][contains(text(),'İstanbul')]"
+  },
+  {
+    "key": "AdresEkleİlçe",
+    "type": "xpath",
+    "value": "//span[@class='filter-option pull-left'][contains(text(),'Seçiniz...')]"
+  },
+  {
+    "key": "AdresEkleİlçeYaz",
+    "type": "xpath",
+    "value": "//div[@class='btn-group bootstrap-select required dropup open']//input[@class='input-block-level form-control input']"
+  },
+  {
+    "key": "AdresEkleİlçe2",
+    "type": "xpath",
+    "value": "// a/span[contains(text(),'ÜSKÜDAR')]"
+  },
+  {
+    "key": "AdresEkleAdres",
+    "type": "xpath",
+    "value": "//input[@id='address-name']"
+  },
+  {
+    "key": "AdresEkleAdresAdı",
+    "type": "xpath",
+    "value": "//textarea[@id='address']"
+  },
+  {
+    "key": "AdresEkleMahalle",
+    "type": "xpath",
+    "value": "//span[@class='filter-option pull-left'][contains(text(),'Seçiniz...')]"
+  },
+  {
+    "key": "AdresEkleMahalleYaz",
+    "type": "xpath",
+    "value": "//div[@class='btn-group bootstrap-select required dropup open']//input[@class='input-block-level form-control input']"
+  },
+  {
+    "key": "AdresEkleMahalle2",
+    "type": "xpath",
+    "value": "// a/span[contains(text(),'ACIBADEM')]"
+  },
+  {
+  "key": "AlışverişTamamla",
+  "type": "xpath",
+  "value": "//span[contains(text(),'i Tamamla')]"
+},
+  {
+  "key": "DevamEt",
+  "type": "xpath",
+  "value": "//span[contains(text(),'Devam Et')]"
+},
+  {
+    "key":"AdresEkleTelefon",
+    "type": "xpath",
+    "value": "//input[@id='phone']"
+  },
+  {
+    "key": "TeslimatİleDevamEt",
+    "type": "xpath",
+    "value": "//span[@class='text']"
+  },
+  {
+    "key": "KrediKartıİleÖdeme",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Kredi / Banka Kart')]"
+  },
+  {
+    "key": "KartNo",
+    "type": "xpath",
+    "value": "//input[@id='card-no']"
+  },
+  {
+    "key": "Kartİsim",
+    "type": "xpath",
+    "value": "//input[@id='holder-Name']"
+  },
+  {
+    "key": "KartAy",
+    "type": "xpath",
+    "value": "//span[@class='filter-option pull-left'][contains(text(),'Ay')]"
+  },
+  {
+    "key": "KartAySec",
+    "type": "xpath",
+    "value": "//span[contains(text(),'01')]"
+  },
+  {
+    "key": "KartYıl",
+    "type": "xpath",
+    "value": "//span[@class='filter-option pull-left'][contains(text(),'l')]"
+  },
+  {
+    "key": "KartYılSec",
+    "type": "xpath",
+    "value": "//span[contains(text(),'2021')]"
+  },
+  {
+    "key": "KartGüvenlikKodu",
+    "type": "xpath",
+    "value": "//input[@id='cvc']"
+  },
+  {
+    "key": "SepeteGitSon",
+    "type": "xpath",
+    "value": "//a[contains(text(),'hepsiburada.com | her')]"
+  },
+  {
+    "key": "ÜrünSil",
+    "type": "xpath",
+    "value": "//div/a[contains(text(),'Sil')]"
+  },
+  {
+    "key": "HesabımSon",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Hesab')]"
+  },
+  {
+    "key": "HesabımSon2",
+    "type": "xpath",
+    "value": "//li[@class='with-border']//a[contains(text(),'Hesab')]"
+  },
+  {
+    "key": "AdreslerimSon",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Adreslerim')]"
+  },
+  {
+    "key": "AdresSil",
+    "type": "xpath",
+    "value": "//a[@class='btn-delete btn-text'][contains(text(),'Sil')]"
+  },
+  {
+    "key": "AdresSilSon",
+    "type": "xpath",
+    "value": "//a[@class='btn btn-md']"
+  },
+  {
+  "key": "FaturaAdreslerim",
+  "type": "xpath",
+  "value": "//a[contains(text(),'Fatura Adreslerim')]"
+},
+  {
+    "key": "FaturaAdreslerimSil",
+    "type": "xpath",
+    "value": "//a[@class='btn-delete btn-text'][contains(text(),'Sil')]"
+  },
+  {
+    "key": "FaturaAdreslerimSilSon",
+    "type": "xpath",
+    "value": "  //a[@class='btn btn-md']"
+  }
+
+]
